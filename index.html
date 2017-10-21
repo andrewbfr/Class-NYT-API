@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>NYT Search</title>
+	<!--bootstrap-->
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+	 <div class="container">
+	 	
+  		<div class="jumbotron text-center">
+  			<div class="row">
+		   		 <h1 id="headline"><img src="assets/images/icons8-US-News-50.png" id="paper">New York Times Search</h1> 
+		    </div>
+		</div>
+	</div>
+
+<!--search panel-->
+	<div class="panel panel-default row">
+		  <div class="panel-heading">
+			    <h4 class="panel-title text-left">Search Parameters</h4>
+		  </div>
+				 	<div class="form-group panel-body">
+					  <label for="usr">Search Term:</label>
+					  <input type="text" class="form-control" id="search">
+					</div>
+
+					<div class="form-group panel-body">
+						  <label for="pwd">Number of Records to Retrieve:</label>
+						  <input type="password" class="form-control" id="retrieve">
+					</div>
+
+					<div class="form-group panel-body">
+					  <label for="usr">Start Year (Optional):</label>
+					  <input type="text" class="form-control" id="start-year">
+					</div>
+
+					<div class="form-group panel-body">
+						  <label for="pwd">End Year (Optional):</label>
+						  <input type="password" class="form-control" id="end-year">
+					</div>
+				
+				     <div class="btnsss">
+        					<td style="margin-bottom:0px; padding-bottom: 0px; font-size: 12px; vertical-align:bottom;">
+            		<div class="btn-group" data-toggle="buttons" id="topButtonDiv" >
+		                <button type="button" class="btn btn-primary"><img src="search.png" height="15px" width="15px">Search
+		                <input type="radio" id="radio1" ></button>
+		                <button type="button" class="btn btn-primary"><img src="trsh.png" height="15px" width="15px">Clear Results
+		                <input type="radio" id="radio2" > </button>
+                	</div>
+               			 	</td>
+            	 </div>
+	</div>
+
+<!--updated result panel-->
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Top Articles</h3>
+  </div>
+  <div class="panel-body">
+    Panel content
+  </div>
+</div>
+<!-- main container div closing-->	
+</div>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
